@@ -3,11 +3,28 @@
 
         #main-section{
             width: 370px;
-            height: 420px;
             border: 1px solid gray;
             border-radius: 12px;
             margin: 20px auto;
           }
+          #user-info{
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        #user-info img{
+            width: 70px;
+            height: 70px;
+            padding-left: 8px;
+        }
+        
+        #user-name h3{
+            margin: 0px;
+        }
+        
+        #user-name p{
+            margin: 0px;
+        }
           #item-photo img {
             width: 350px;
             height: 250px;
